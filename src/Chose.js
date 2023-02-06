@@ -14,6 +14,7 @@ export default class Chose {
   get fait() {
     return this._fait;
   }
+
   // modifier fait / pas fait
   faire() {
     this._fait = !this._fait;
